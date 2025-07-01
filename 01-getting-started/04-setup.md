@@ -62,3 +62,6 @@ docker run -dit \
 | `--env TZ=Asia/Kolkata` | Sets the **timezone** (modify based on your location). |
 | `--env LANG=en_US.UTF-8` | Sets the **language** settings inside the container. |
 | `ubuntu:latest /bin/bash` | Uses the latest **Ubuntu** image and runs Bash shell. |
+
+## Connect to Linux m/c
+docker exec -it <container-id> /bin/bash
